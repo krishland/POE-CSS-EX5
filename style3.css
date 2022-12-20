@@ -37,9 +37,8 @@ ul {
 
 li {
     border: 1px solid grey;
-    margin: 3px;
     background-color: rgb(255, 255, 255);
-    height: calc((100% - 182px)/10);
+    height: calc((100% - 150px)/10);
 }
 
 li:first-child {
