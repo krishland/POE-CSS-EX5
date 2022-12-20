@@ -4,37 +4,38 @@
     box-sizing: border-box;
 }
 
-header {
-width: 100vw;
-height: 50px;
-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+body {
+    height: 100%;
 }
 
-main {
-    height: auto;
-    margin: 3px;
+header {
+    width: 100vw;
+    height: 50px;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 main > ul {
     display: grid;
-    grid-template: 2fr / 1fr 1fr 1fr 1fr;
+    grid-template: 2fr / 1fr 1fr;
     list-style-type: none;
 }
 
-li {
-    margin:2px;
+li:first-child {
+    color: rgba(240, 248, 255, 0);
+    background-color: rgb(25, 25, 25);
+    height: 550px;
 }
 
 li > p:first-child {
     color: rgba(240, 248, 255, 0);
     background-color: grey;
-    height: 200px;
+    height: 275px;
 }
 
 li > p:last-child {
     color: rgba(240, 248, 255, 0);
     background-color: rgb(197, 197, 197);
-    height: 100px;
+    height: 275px;
 }
 
 footer {
