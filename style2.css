@@ -42,3 +42,22 @@ footer {
     background-color: rgb(179, 179, 179);
     height: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    
+    main > ul {
+        display: block;
+    }
+
+    li:first-child {
+        height: calc(550px/2);
+    }
+    
+    li > p:first-child {
+        height: calc(275px/2);
+    }
+    
+    li > p:last-child {
+        height: calc(275px/2);
+    }
+}
